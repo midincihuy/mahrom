@@ -29,7 +29,7 @@
       columns: [
         { data: 'name', name: 'name' },
         { data: 'guard_name', name: 'guard_name' },
-        { data: 'permissions', name: 'permissions.name' },
+        { data: 'permissions', name: 'permissions' },
       ]
     });
   </script>

@@ -23,3 +23,4 @@ Route::group(['middleware' => ['auth','role:administrator'], 'prefix' => 'admin'
 Route::get('/ajax/user', 'AjaxController@user')->name('ajax_user');
 Route::get('/ajax/permission', 'AjaxController@permission')->name('ajax_permission');
 Route::get('/ajax/role', 'AjaxController@role')->name('ajax_role');
+Route::get('/ajax/excel', 'AjaxController@excel')->name('ajax_excel');
